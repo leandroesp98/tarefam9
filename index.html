@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Cadastro de Clientes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Cadastro de Clientes</h1>
+    <p class="subtitle">Fetch API + CrudCrud</p>
+
+    <form id="form-cliente">
+      <div class="campo">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite o nome do cliente" required>
+      </div>
+
+      <div class="campo">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite o e-mail do cliente" required>
+      </div>
+
+      <button type="submit">Cadastrar Cliente</button>
+    </form>
+
+    <div id="mensagem" class="mensagem"></div>
+
+    <h2>Clientes Cadastrados</h2>
+    <ul id="lista-clientes"></ul>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
