@@ -1,11 +1,4 @@
-// ============================================================
-// CONFIGURAÇÃO DA API (CrudCrud)
-// ============================================================
-// 1. Acesse https://crudcrud.com
-// 2. Copie o "endpoint" único gerado para sua sessão
-// 3. Substitua SEU_ENDPOINT_AQUI abaixo pelo endpoint copiado
-//    Exemplo: https://crudcrud.com/api/1a2b3c4d5e6f7g8h9i0j/clientes
-const API_URL = "https://crudcrud.com/api/SEU_ENDPOINT_AQUI/clientes";
+const API_URL = "https://crudcrud.com/api/SEU_ENDPOINT_AQUI";
 
 // ============================================================
 // REFERÊNCIAS DOS ELEMENTOS DO DOM
